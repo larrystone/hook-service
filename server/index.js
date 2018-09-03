@@ -1,4 +1,4 @@
-import { json, text, send } from 'micro';
+import { json, send } from 'micro';
 
 const main = async (req, res) => {
   try {

@@ -6,8 +6,7 @@
   "author": "Larrystone Yakov",
   "license": "MIT",
   "scripts": {
-    "start": "micro -l https://hook-service.herokuapp.com/",
-    "dev": "babel -d ./build ./server -s && micro",
+    "start": "babel -d ./build ./server -s && micro",
     "watch:dev": "nodemon --watch server --exec yarn dev",
     "heroku-postbuild": "babel -d ./build ./server -s"
   },
